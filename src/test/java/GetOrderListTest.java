@@ -13,9 +13,8 @@ public class GetOrderListTest {
 
     @Before
     public void setUp() {
-        RestAssured.baseURI = "http://qa-scooter.praktikum-services.ru/";
+        RestAssured.baseURI = BaseURI.BASE_URI;
     }
-
 
     @Test
     @DisplayName("Send GET request and get list of orders")

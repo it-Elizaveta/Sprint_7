@@ -1,6 +1,7 @@
 import java.util.List;
 
 public class OrderAdvancedParameters {
+
     private int id;
     private int courierId;
     private String firstName;
